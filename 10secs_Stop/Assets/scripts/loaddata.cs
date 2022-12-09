@@ -14,11 +14,12 @@ public class loaddata : MonoBehaviour
     }
 
     public void clickusername(){
-       // PlayerPrefs.DeleteKey("username");
        SceneManager.LoadScene("username");
     }
     public void clickStart(){
-       // PlayerPrefs.DeleteKey("username");
        SceneManager.LoadScene("SampleScene");
+    }
+    public void clickexit(){
+       Application.Quit();
     }
 }

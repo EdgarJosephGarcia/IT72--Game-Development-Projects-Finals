@@ -11,7 +11,6 @@ public class savedata : MonoBehaviour
     public void clickSave(){
         PlayerPrefs.SetString("username", textBox.text);
         SceneManager.LoadScene("home");
-        Debug.Log("win");
     }
     public void clickcancel(){
         SceneManager.LoadScene("home");
